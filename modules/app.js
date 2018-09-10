@@ -10,8 +10,9 @@ System.register(["./lib/wam_detector"], function (exports_1, context_1) {
         ],
         execute: function () {
             credits = 0;
-            wammer = new wam_detector_1.WamDetector();
+            wammer = new wam_detector_1.WamDetector('blenry');
             console.log(wammer.detectForWams(credits));
+            wammer.speak();
             exports_1("exit", exit = 0);
         }
     };
