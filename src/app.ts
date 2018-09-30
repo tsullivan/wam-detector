@@ -5,4 +5,4 @@ const wammer = new WamDetector('blenry');
 console.log(wammer.detectForWams(credits));
 wammer.speak();
 
-export const exit = 0
+export const exit = 0;

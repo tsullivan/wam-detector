@@ -5,7 +5,7 @@ export class Detector {
     this.speaked = 0;
   }
 
-  speak(): void {
+  public speak(): void {
     this.speaked++;
     console.log('hi ' + this.name);
   }
